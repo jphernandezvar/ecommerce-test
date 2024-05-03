@@ -5,6 +5,7 @@
 - [Overview](#overview)
 - [Technology Stack](#technology-stack)
 - [Application Structure](#application-structure)
+- [Architecture Diagram](#architecture-diagram)
 - [How to build and run](#how-to-build-and-run)
     - [Pre-requisites](#pre-requisites)
     - [Step 1 - BUILD](#step-1---build)
@@ -47,6 +48,10 @@ It was designed to comply with a [**Hexagonal Architecture**](https://en.wikiped
 | - ecommerce-bootloader     | Module to launch Spring Boot application, run tests and coverage reports.             |
 | - ecommerce-domain         | Here the POJO classes and domain interfaces are centralized.                          |
 | - ecommerce-infrastructure | Adapters such as Rest and access to Persistence (JPA) are centralized in this module. |
+
+## Architecture Diagram
+
+![Architecture Diagram](docs/architecture_diagram.png)
 
 ## How to Build and Run
 
